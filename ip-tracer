@@ -37,8 +37,8 @@ case "$1" in
   *)
     echo "Usage: ip-tracer [command]... [arguments]..."
     echo " Commands:"
-    echo " -t <target_ip>      to trace target ip."
-    echo " -m                  to trace your own ip."
+    echo " -t <target_ip>      192.168.1.25"
+    echo " -m                  192.168.1.60"
     echo " -h                  to show help."
     echo " -u                  to update ip-tracer."
     echo " help                to show help."
